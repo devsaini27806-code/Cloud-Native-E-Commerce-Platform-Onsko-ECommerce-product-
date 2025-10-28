@@ -5,7 +5,7 @@
 ![Preview Image](/images/onsko-logo.webp)
 #
 
-# Wanderlust Mega Project End to End Implementation
+# Onsko E-Commerce Cloud-Native Mega Project End to End Implementation
 
 ### In this demo, we will see how to deploy an end to end three tier MERN stack application on EKS cluster.
 #
