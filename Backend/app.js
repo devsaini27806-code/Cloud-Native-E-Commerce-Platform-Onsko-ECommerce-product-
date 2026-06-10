@@ -43,6 +43,9 @@ const allowedOrigins = [process.env.FRONTEND_URI];
 app.get("/", (req, res) => {
   res.status(200).send("OK");
 });
+app.get("/health", (req,res)=>{
+  res.status(200).send("OK");
+});
 app.use("/api/v1/onsko", userRouter);
 
 // Uncomment this if you want to serve index.html for all other routes
